@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txt0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Waste Manager"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt0"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Username :"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/euser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/txt1"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:padding="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:hint="enter username" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_below="@id/euser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:textStyle="bold"
+        android:text="Password :"
+        android:layout_marginStart="25dp"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/epass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="25dp"
+        android:hint="enter password" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_below="@id/epass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Login"/>
+
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_below="@id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Don't have an account?"
+        android:textStyle="italic"
+        android:layout_marginStart="25dp"
+        android:textSize="17dp"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="13dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="SIGN UP!"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_below="@id/signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="70dp"
+        android:text="Or sign in with "
+        android:background="@color/teal_700"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:layout_marginStart="70dp"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/google"
+        android:layout_below="@+id/txt4"
+        android:layout_marginLeft="70dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/facebook"
+        android:layout_below="@+id/txt4"
+        android:layout_marginLeft="170dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:src="@drawable/twitter"
+        android:layout_below="@+id/txt4"
+        android:layout_marginLeft="270dp"/>
+
+
+
+
+
+
+</RelativeLayout>
+

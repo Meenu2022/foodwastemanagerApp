@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:gravity="center"
+    tools:context=".splashscreen">
+
+    <ImageView
+        android:id="@+id/ocr"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="55dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="197dp"
+        android:layout_below="@+id/ocr"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="19dp"
+        android:text="Throwing away food is like throwing away money"
+        android:textColor="#1C1B1B"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+
+
+
+
+
+
+</RelativeLayout>
